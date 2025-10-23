@@ -1,0 +1,25 @@
+{
+  "name": "cafe-api",
+  "version": "1.0.0",
+  "description": "API simples para loja de café",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "dev": "nodemon api.js"
+  },
+  "keywords": [
+    "cafe",
+    "api",
+    "express",
+    "nodejs"
+  ],
+  "author": "Café & Cia",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
