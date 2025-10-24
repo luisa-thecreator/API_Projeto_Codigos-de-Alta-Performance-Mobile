@@ -16,17 +16,17 @@ const produtos = [
       "Um delicioso café cremoso, aromatizado com canela e servido com um pau de canela para um toque especial.",
     preco: 18.0,
     categoria: "bebidas",
-    imagem: "cafe-canela-cremoso.jpg",
+    imagem: "cafe-canela-cremoso.jpeg",
     estoque: 25,
   },
   {
     id: 2,
-    nome: "Café Gelado com Leite",
+    nome: "Mocha Gelado",
     descricao:
-      "Refrescante café gelado com leite cremoso, perfeito para dias quentes, com cubos de gelo e granulados dourados.",
+      "Mocha gelado com café espresso, leite vaporizado, chantilly e calda de chocolate, servido com gelo.",
     preco: 16.5,
     categoria: "bebidas",
-    imagem: "cafe-gelado-leite.jpg",
+    imagem: "Mocha-Gelado.jpeg",
     estoque: 30,
   },
   {
@@ -36,128 +36,18 @@ const produtos = [
       "Delicioso chocolate quente cremoso, coberto com chantilly e raspas de chocolate.",
     preco: 18.5,
     categoria: "bebidas",
-    imagem: "chocolate-quente-cremoso.jpg",
+    imagem: "chocolate-quente-cremoso.jpeg",
     estoque: 20,
   },
   {
     id: 4,
-    nome: "Café Gelado Clássico",
+    nome: "Esfihas fechadas",
     descricao:
-      "Café gelado refrescante com framboesa e amora frescas, servido em copo alto com gelo.",
-    preco: 15.9,
-    categoria: "bebidas",
-    imagem: "cafe-gelado-classico.jpg",
-    estoque: 35,
-  },
-  {
-    id: 5,
-    nome: "Café Espresso Premium",
-    descricao:
-      "Espresso fumegante com crema dourada, servido com grãos de café frescos ao redor.",
-    preco: 12.0,
-    categoria: "bebidas",
-    imagem: "espresso-premium.jpg",
-    estoque: 40,
-  },
-  {
-    id: 6,
-    nome: "Latte Art Especial",
-    descricao:
-      "Latte com arte de barista elaborada, formando um desenho de coração na espuma cremosa.",
-    preco: 19.9,
-    categoria: "bebidas",
-    imagem: "latte-art-especial.jpg",
-    estoque: 25,
-  },
-  {
-    id: 7,
-    nome: "Café em Camadas",
-    descricao:
-      "Bebida de café em camadas distintas com leite condensado, espresso e espuma cremosa.",
-    preco: 17.5,
-    categoria: "bebidas",
-    imagem: "cafe-camadas.jpg",
-    estoque: 28,
-  },
-  {
-    id: 8,
-    nome: "Affogato Clássico",
-    descricao:
-      "Sorvete de baunilha com espresso quente derramado por cima, guarnecido com folhas de hortelã e bastão de chocolate.",
-    preco: 22.0,
-    categoria: "sobremesas",
-    imagem: "affogato-classico.jpg",
-    estoque: 15,
-  },
-  {
-    id: 9,
-    nome: "Cheesecake Tradicional",
-    descricao:
-      "Fatia de cheesecake cremoso com crosta de biscoitos, servido com frutas frescas.",
-    preco: 24.9,
-    categoria: "sobremesas",
-    imagem: "cheesecake-tradicional.jpg",
-    estoque: 12,
-  },
-  {
-    id: 10,
-    nome: "Torta de Chocolate",
-    descricao:
-      "Fatia de torta de chocolate rica e multicamadas, com crosta crocante e ganache brilhante.",
-    preco: 26.5,
-    categoria: "sobremesas",
-    imagem: "torta-chocolate.jpg",
-    estoque: 18,
-  },
-  {
-    id: 11,
-    nome: "Torta de Limão com Merengue",
-    descricao:
-      "Torta de limão com merengue tostado, crosta dourada e raspas de limão fresco.",
-    preco: 23.9,
-    categoria: "sobremesas",
-    imagem: "torta-limao-merengue.jpg",
-    estoque: 14,
-  },
-  {
-    id: 12,
-    nome: "Espresso Martini",
-    descricao:
-      "Coquetel sofisticado com vodka, licor de café e espresso fresco, guarnecido com grãos de café.",
-    preco: 38.0,
-    categoria: "coqueteis",
-    imagem: "espresso-martini.jpg",
-    estoque: 20,
-  },
-  {
-    id: 13,
-    nome: "Panquecas Douradas",
-    descricao:
-      "Pilha de sete panquecas fofas e douradas, regadas com xarope de bordo e guarnecidas com manteiga, mirtilos e framboesas.",
-    preco: 28.9,
-    categoria: "cafe-da-manha",
-    imagem: "panquecas-douradas.jpg",
-    estoque: 10,
-  },
-  {
-    id: 14,
-    nome: "Empanadas com Gergelim",
-    descricao:
-      "Empanadas assadas de massa folhada com formato de estrela, cobertas com gergelim preto e branco.",
+      "Esfihas fechadas com massa folhada, recheio de carne moída, queijo e molho de tomate, servidas em 3 unidades.",
     preco: 8.5,
     categoria: "salgados",
-    imagem: "empanadas-gergelim.jpg",
+    imagem: "Esfihas-fechadas.jpeg",
     estoque: 25,
-  },
-  {
-    id: 15,
-    nome: "Cerveja Corona Extra",
-    descricao:
-      "Cerveja Corona Extra gelada, perfeita para acompanhar os salgados.",
-    preco: 12.0,
-    categoria: "bebidas",
-    imagem: "corona-extra.jpg",
-    estoque: 50,
   },
 ];
 
